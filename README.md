@@ -24,8 +24,8 @@ samplesheets.
 
 To relaunch this workflow, unlock the directory with:
 
-    ```bash
-    module load python/3.6.6
-    ./unlock.sh RNAproc #or
-    ./unlock.sh runRNAproc
-    ```
+```bash
+module load python/3.6.6
+./unlock.sh RNAproc #or
+./unlock.sh runRNAproc
+```

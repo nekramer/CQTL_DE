@@ -1,5 +1,5 @@
-processing/output/*
-processing/env/*
-processing/.snakemake/*
-processing/logs/*
-processing/RNAproc-*.out
+output/*
+env/*
+.snakemake/*
+logs/*
+RNAproc-*.out
