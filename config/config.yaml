@@ -1,10 +1,10 @@
 
 ## Path to RNA-seq sample samplesheet
-samplesheet: 'samplesheet.csv'
+samplesheet: 'samplesheet_replicate.csv'
 
 ## Software versions
 fastqcVersion: '0.11.9'
-cutadaptVersion: '4.1'
+trimgaloreVersion: "0.6.7"
 salmonVersion: '1.10.0'
 multiqcVersion: '1.11'
 rVersion: '4.2.2'

@@ -88,12 +88,12 @@ rule trim:
         report2 = temp("output/{group}/trim/{group}_R2.fastq.gz_trimming_report.txt")
     threads: 4
     params:
-        version = config['cutadaptVersion']
+        version = config['trimgaloreVersion']
     log:
         err = "output/{group}/logs/{group}_trim.err"
     shell:
         """
-        module load cutadapt/{params.version}
+        module load trim_galore/{params.version}
         module load python/3.6.6
         module load pigz
         mkdir -p output/{wildcards.group}/trim
